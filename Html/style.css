@@ -4,6 +4,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     margin: 40px;
     background-color: rgb(119, 119, 119);
@@ -22,8 +23,8 @@ body {
 }
 
 .form {
-    display: flex; 
-    margin-bottom: 10px;   
+    display: flex;
+    margin-bottom: 10px;
     gap: 18px;
 }
 
@@ -33,11 +34,13 @@ body {
     padding: 8px;
 }
 
-.task:focus{
+.task:focus {
     border: 2px solid rgb(86, 139, 6);
     outline: none;
     padding: 0px 10px;
 }
+
+
 
 .add {
     padding: 18px 10px;
@@ -54,6 +57,16 @@ body {
     transform: scale(0.9);
 }
 
+.message-error {
+    color: red;
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+
 ul {
     list-style: none;
 }
@@ -69,4 +82,8 @@ li {
 li:hover {
     background-color: #e0e0e0;
 
+}
+
+.error {
+    border: 1px solid red;
 }
