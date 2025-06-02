@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <h1 class="title">lista de tarefas</h1>
         <div class="form">
-            <input type="text" class="task">
-            <button class="add">Adicionar</button>
+            <input type="text" class="task" id="task">
+            <span class="message-error"  id="message-error">adicione uma tarefa</span>
+            <button class="add" id="add">Adicionar</button>
         </div>
         <ul>
         </ul>
     </div>
+    <script src="script.js"></script>
 </body>
-<script src="index.js"></script>
-
 </html>
